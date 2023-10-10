@@ -63,9 +63,7 @@ const keyPress = e => {
   untypedfield.textContent = untyped;
 
   // 文字数のインクリメント
-  let wordScore = wordCount.textContent;
-  wordScore++;
-  wordCount.textContent = wordScore;
+  wordCount.textContent = score;
 
   // テキストがなくなったら新しいテキストを表示
   if(untyped === '') {
