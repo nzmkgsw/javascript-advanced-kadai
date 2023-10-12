@@ -102,7 +102,7 @@ const gameOver = id => {
     if(result == true) {
       window.location.reload();
     }
-  }, 10);
+  }, 6000);
 };
 
 // カウントダウンタイマー
